@@ -1,0 +1,58 @@
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+		float n1, n2;
+		int operacao;
+		
+		
+		Scanner in = new Scanner (System.in);
+		
+		System.out.print("Insira um número: ");
+		n1=in.nextFloat();
+		System.out.print("Insira um segundo número: ");
+		n2=in.nextFloat();
+		
+		System.out.println("Escolha 1 operação aritmética: ");
+		    System.out.println("1-Soma ");
+		    System.out.println("2-Subtração ");
+		    System.out.println("3-Divisão ");
+		    System.out.println("4-Multiplicação ");
+		    operacao=in.nextInt();
+		    
+		while (n2==0&&operacao==3) {
+		    System.out.println("Não se pode dividir por 0");
+		    System.out.println("Insira um segundo número: ");
+		    n2=in.nextFloat();
+		    
+		    System.out.println("Escolha 1 operação aritmética: ");
+		    System.out.println("1-Soma ");
+		    System.out.println("2-Subtração ");
+		    System.out.println("3-Divisão ");
+		    System.out.println("4-Multiplicação ");
+		    operacao=in.nextInt();
+			    
+			}
+	    switch (operacao)
+	    {
+	        case 1:
+	            System.out.println("O seu resultado é: "+ (n1+n2));
+	            break;
+	       case 2:
+	            System.out.println("O seu resultado é: "+ (n1-n2));
+	            break;
+	       case 3:
+	            System.out.println("O seu resultado é: "+ (n1/n2));
+	            break;
+	      case 4:
+	           System.out.println("O seu resultado é: "+ (n1*n2));
+	            break;
+	     default:
+	             System.out.println("O seu resultado é inválido");
+	         
+	            
+	    }
+	}
+}
+
+
