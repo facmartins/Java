@@ -1,0 +1,79 @@
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+	    float n1;
+	    
+	    
+	    Scanner in = new Scanner (System.in);
+		
+	    System.out.print("Escolha o número relativamente ao seu mês de nascença:");
+	    n1=in.nextFloat();
+	    
+	    if (n1==1)
+	      { 
+	          System.out.println("O seu mês de aniversário é: Janeiro");
+	      }
+	      else
+	            if(n1==2)
+	            {
+	                System.out.println("O seu mês de aniversário é: Fevereiro");
+	            }
+	      else
+	            if(n1==3)
+	            {
+	                System.out.println("O seu mês de aniversário é: Março");
+	            }
+	      else
+	            if(n1==4)
+	            {
+	                System.out.println("O seu mês de aniversário é: Abril");
+	            }
+	       else
+	            if(n1==5)
+	            {
+	                System.out.println("O seu mês de aniversário é: Maio");
+	            }
+	      else
+	            if(n1==6)
+	            {
+	                System.out.println("O seu mês de aniversário é: Junho");
+	            }
+	      else
+	            if(n1==7)
+	            {
+	                System.out.println("O seu mês de aniversário é: Julho");
+	            }
+	              else
+	            if(n1==8)
+	            {
+	                System.out.println("O seu mês de aniversário é: Agosto");
+	            }
+	      else
+	            if(n1==9)
+	            {
+	                System.out.println("O seu mês de aniversário é: Setembro");
+	            }
+	      else
+	            if(n1==10)
+	            {
+	                System.out.println("O seu mês de aniversário é: Outubro");
+	            }
+	              else
+	            if(n1==11)
+	            {
+	                System.out.println("O seu mês de aniversário é: Novembro");
+	            }
+	      else
+	            if(n1==12)
+	            {
+	                System.out.println("O seu mês de aniversário é: Dezembro");
+	            }
+	    
+	       else 
+	        {
+	            System.out.println("Opção inválida.");
+	        }
+	}}
+
+
